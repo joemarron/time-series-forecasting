@@ -37,7 +37,7 @@ As the below graph demonstrates, ARIMA forecasting is extremely powerful and can
 ### Power of STL Decomposition on US Monthly Retail Sales
 As the results show, STL can be extremely effective for a relatively simple technique, especially on seasonal data as the name suggests. The below demonstrates this, with a monte carlo simulation maintaining the seasonality for a respectable time horizon.
 
-![STL_US_Sales](https://github.com/joemarron/time-series-forecasting/blob/main/SP500%20ARIMA%20Prediction.png)
+![STL_US_Sales](https://github.com/joemarron/time-series-forecasting/blob/main/US%20Retail%20Sales%20STL%20Decomp%20Monte%20Carlo%20Simulation%20(5y).png)
 
 ### Portfolio Simulations on HWG.L - AutoRegression v STL Decomposition
 The below portfolio simulations show varying results when using predictions for AR(3) and STL Decomp. The parameters for this simple simulation are, given a starting portfolio value of £10,000 , if predicted value for day is a 4% above actual, then buy portfolio value worth of stock, if not, then sell whole position. This is obviously an unrealistic scenario but for demonstration provides useful results. As can be seen in the below graphs, a portfolio return of 22.4x was achieved for the STL Decomp simulation vs the AR(3) model. This shows the significance of choosing the most accurate model.
