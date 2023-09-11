@@ -42,4 +42,4 @@ As the results show, STL can be extremely effective for a relatively simple tech
 ### Portfolio Simulations on HWG.L - AutoRegression v Lowess Decomposition
 The below portfolio simulations show varying results when using predictions for AR(3) and Lowess Decomp. The parameters for this simple simulation are, given a starting portfolio value of £10,000 , if predicted value for day is a 4% above actual, then buy portfolio value worth of stock, if not, then sell whole position. This is obviously an unrealistic scenario but for demonstration provides useful results. As can be seen in the below graphs, a portfolio return of 22.4x was achieved for the lowess Decomp simulation vs the AR(3) model. This shows the significance of choosing the most accurate model.
 
-![AR_Sim](https://github.com/joemarron/time-series-forecasting/blob/main/Portfolio Simulation HWG - AR v Lowess Decomp.png)
+![AR_Sim](https://github.com/joemarron/time-series-forecasting/blob/main/Portfolio%20Simulation%20HWG%20-%20AR%20v%20Lowess%20Decomp.png)
